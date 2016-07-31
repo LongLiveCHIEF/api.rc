@@ -1,0 +1,11 @@
+[main]
+token="_your_api_token_here"
+
+[defaults]
+image="ubuntu-15-10-x64"
+ipv6=true
+size="1gb"
+private-networking=true
+backups=false
+userdata=$HOME/.apirc/digitalocean/userdata
+ssh-user=root
