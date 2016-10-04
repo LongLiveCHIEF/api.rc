@@ -10,3 +10,4 @@ Need to provide your *Digital Ocean* api token to `docker-machine`?  Easy!
 ```bash
 docker-machine create --driver digitalocean --digitalocean-access-token=$(api get --token digitalocean)
 ```
+test
